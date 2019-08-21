@@ -81,7 +81,7 @@ namespace velodynetest
 				*iter_intensity_new = intensity;
 				*iter_ring_new = ring_num;
 			}
-			//else
+			else
 			{
 				continue;
 			}	
