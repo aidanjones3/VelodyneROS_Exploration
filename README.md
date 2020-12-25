@@ -34,7 +34,10 @@ new point cloud. Afterwards, the point cloud is then published.
 
 *Noise/Outlier Removal*
 
-
+In this node, we subscribe to the published point cloud from the Channel Removal node.
+We then convert this sensor_msgs::PointCloud2 type to a pcl point cloud, and apply a voxel
+grid filter to it. This is then converted back out to a sensor_msgs::PointCloud2 and published
+on a topic.
 
 ---
 Downloading/Building
