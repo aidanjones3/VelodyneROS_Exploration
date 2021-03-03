@@ -141,6 +141,7 @@ include_directories(
 add_executable(${PROJECT_NAME} 
 	src/channel_remove.cpp
 	src/outlier_removal.cpp
+	src/segmentation.cpp
 	src/velodyne_test_node.cpp
 )
 
